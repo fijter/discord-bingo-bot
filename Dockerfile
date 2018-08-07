@@ -9,4 +9,4 @@ RUN pip install -r requirements.txt
 COPY . .
 
 ENTRYPOINT ["python"]
-CMD ["BingoTest.py"]
+CMD ["bingobot.py"]
